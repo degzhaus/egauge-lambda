@@ -1,0 +1,22 @@
+{
+  "name": "egauge-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "tsc": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.496.0",
+    "@aws-sdk/client-s3": "^3.496.0",
+    "axios": "^1.9.0",
+    "csv-parse": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "esbuild": "^0.25.4",
+    "typescript": "^5.8.3"
+  }
+}
